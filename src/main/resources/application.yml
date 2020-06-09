@@ -1,0 +1,12 @@
+spring:
+  #h2:
+    #console:
+      #enabled: true
+  datasource:
+    url: 'jdbc:mysql://localhost:3306/opt_pess_lock?useUnicode=yes&characterEncoding=UTF-8&tinyInt1isBit=false&zeroDateTimeBehavior=convertToNull&useSSL=false'
+    username: 'root'
+    password: 'root'
+  jpa:
+    hibernate:
+      use-new-id-generator-mappings: false
+      ddl-auto: create-drop
